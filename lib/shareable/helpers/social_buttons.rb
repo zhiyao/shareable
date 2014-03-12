@@ -14,7 +14,7 @@ module Shareable
       #not very DRY. Refactor.
       cattr_accessor :config_options
       self.config_options = {
-      :facebook => [ :app_id, :send, :layout, :show_faces, :width, :action, :font, :colorscheme, :ref ],
+      :facebook => [ :app_id, :share, :send, :layout, :show_faces, :width, :action, :font, :colorscheme, :ref ],
       :google_plus => [ :annotation, :recommendations, :align, :expand_to, :callback, :onstartinteraction, :onendinteraction, :size, :width ],
       :linkedin => [ :counter, :onsuccess, :onerror, :showzero ],
       :pinterest => [ :pin_config, :pin_do, :title, :alt, :media, :description ],
